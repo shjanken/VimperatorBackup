@@ -39,9 +39,12 @@ highlight Tag color: #a0a0d0;
 highlight Title color: orchid; background: #1c1c1c; font-weight: bold;
 highlight URL text-decoration: none; color: #d0ffd0;
 highlight WarningMsg color: #ff0000; background: #1c1c1c; font-size: 12px;
+
 noremap q gT
 noremap w gt
 set hintchars=sadfjklewcmpgh
+set gui=none
+
 style! -name=indigo-feed-button chrome://* <<EOF
 #feed-button {
         list-style-image: url("chrome://browser/skin/feeds/feedIcon16.png") !important;
@@ -50,15 +53,10 @@ style! -name=indigo-feed-button chrome://* <<EOF
         min-width: 0 !important;
     }
 EOF
-style! -name=indigo-sbmcommentsviewer chrome://* <<EOF
-.liberator-sbmcommentsviewer-content {
-        padding: 0 !important;
+style! -name=indigo-sbmcommentsviewer chrome://* <<EOF .liberator-sbmcommentsviewer-content { padding: 0 !important;
         border: none !important;
     }
 EOF
 source! /home/shjanken/.vimperatorrc.local
-
-set gui=none
-set gui=tabs
 
 " vim: set ft=vimperator:
