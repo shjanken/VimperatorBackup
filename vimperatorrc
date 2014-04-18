@@ -2,7 +2,7 @@
 
 highlight Bell border: none; background-color: #d0d0d0;
 highlight Boolean color: orchid;
-highlight CmdLine font-size: 14px; background: black; color: #d0d0d0; -moz-transition: all 0.25s;
+highlight CmdLine font-size: 18px; background: black; color: #d0d0d0; -moz-transition: all 0.25s;
 highlight CompDesc width: 500px; max-width: 500px; color: #a0a0d0;
 highlight CompItem font-size: 12px;
 highlight CompItem[selected] color: #dddddd; background: #3c3c3f;
@@ -39,13 +39,12 @@ highlight Tag color: #a0a0d0;
 highlight Title color: orchid; background: #1c1c1c; font-weight: bold;
 highlight URL text-decoration: none; color: #d0ffd0;
 highlight WarningMsg color: #ff0000; background: #1c1c1c; font-size: 12px;
-
 noremap q gT
 noremap w gt
 noremap ; :
 noremap : ;
-set hintchars=sadfjklewcmpgh
 set gui=none
+set gui=tabs
 
 style! -name=indigo-feed-button chrome://* <<EOF
 #feed-button {
@@ -56,9 +55,6 @@ style! -name=indigo-feed-button chrome://* <<EOF
     }
 EOF
 style! -name=indigo-sbmcommentsviewer chrome://* <<EOF .liberator-sbmcommentsviewer-content { padding: 0 !important;
-        border: none !important;
-    }
-EOF
 source! /home/shjanken/.vimperatorrc.local
 
 " vim: set ft=vimperator:
