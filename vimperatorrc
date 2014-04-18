@@ -42,6 +42,8 @@ highlight WarningMsg color: #ff0000; background: #1c1c1c; font-size: 12px;
 
 noremap q gT
 noremap w gt
+noremap ; :
+noremap : ;
 set hintchars=sadfjklewcmpgh
 set gui=none
 
