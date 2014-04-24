@@ -14,7 +14,7 @@ highlight ErrorMsg color: #ffffff; background: #440000; font-size: 12px;
 highlight Filter color: #7090d0;
 highlight FrameIndicator background-color: red; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
 highlight Function color: skyblue;
-highlight Hint font-family: monospace; font-size: 14px; font-weight: normal; color: #dddddd; background-color: #1c1c1c; border: none; margin: -0.7em 0 0 -0.7em; padding: 0px 5px; background-color: rgba(28, 28, 28, 0.8); border: 1px solid #1c1c1c; -moz-border-radius: 4px; -moz-box-shadow: 0px 0px 1px black; text-shadow: 1px 1px 2px black;
+highlight Hint font-family: Yahei Consolars Hybird; font-size: 14px; font-weight: normal; color: #dddddd; background-color: #1c1c1c; border: none; margin: -0.7em 0 0 -0.7em; padding: 0px 5px; background-color: rgba(28, 28, 28, 0.8); border: 1px solid #1c1c1c; -moz-border-radius: 4px; -moz-box-shadow: 0px 0px 1px black; text-shadow: 1px 1px 2px black;
 highlight HintActive background-color: rgba( 85, 102, 187, 0.8); color: #dddded; text-decoration: none; -moz-border-radius: 4px; -moz-box-shadow: 0 0 2px #0c0c0c;
 highlight HintElem background-color: rgba(208, 208, 240, 0.8); color: #1c1c1c; text-decoration: none; -moz-border-radius: 4px; -moz-box-shadow: 0 0 2px #0c0c0c;
 highlight Indicator color: #a0a0d0;
