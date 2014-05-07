@@ -56,3 +56,5 @@ style! -name=indigo-sbmcommentsviewer chrome://* <<EOF .liberator-sbmcommentsvie
 source! /home/shjanken/.vimperatorrc.local
 
 " vim: set ft=vimperator:
+set gui=none
+set gui=tabs
