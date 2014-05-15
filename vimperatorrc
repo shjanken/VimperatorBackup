@@ -43,7 +43,7 @@ noremap q gT
 noremap w gt
 noremap ; :
 noremap : ;
-set hintchars=hjklasdf
+set hintchars=hjklasdfg
 style! -name=indigo-feed-button chrome://* <<EOF
 #feed-button {
         list-style-image: url("chrome://browser/skin/feeds/feedIcon16.png") !important;
@@ -56,5 +56,6 @@ style! -name=indigo-sbmcommentsviewer chrome://* <<EOF .liberator-sbmcommentsvie
 source! /home/shjanken/.vimperatorrc.local
 
 " vim: set ft=vimperator:
+
 set gui=none
 set gui=tabs
