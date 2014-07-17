@@ -43,7 +43,7 @@ noremap q gT
 noremap w gt
 noremap ; :
 noremap : ;
-set hintchars=hjklasdfg
+set hintchars=hjklasdfgyuiopqwertnmzxcvb
 style! -name=indigo-feed-button chrome://* <<EOF
 #feed-button {
         list-style-image: url("chrome://browser/skin/feeds/feedIcon16.png") !important;
