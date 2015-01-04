@@ -1,2 +1,12 @@
 set gui=none
 set gui=tabs
+
+nmap w gt 
+nmap q gT
+
+noremap ; :
+noremap : ;
+
+set hintchars=hjklasdf
+
+colorscheme solarized_dark
