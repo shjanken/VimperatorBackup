@@ -1,6 +1,3 @@
-set gui=none
-set gui=tabs
-
 nmap w gt 
 nmap q gT
 
