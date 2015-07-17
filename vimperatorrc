@@ -1,5 +1,5 @@
-nmap w gt 
-nmap q gT
+noremap w :tn<CR>
+noremap q :tp<CR>
 
 noremap ; :
 noremap : ;
