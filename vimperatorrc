@@ -1,5 +1,6 @@
 noremap w :tn<CR>
 noremap q :tp<CR>
+noremap e :tabopen 
 
 noremap ; :
 noremap : ;
