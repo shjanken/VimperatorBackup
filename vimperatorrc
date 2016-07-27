@@ -7,4 +7,7 @@ noremap : ;
 
 set hintchars=hjklasdf
 
-colorscheme solarized_dark
+colorscheme ywgx
+set gui=notabs
+
+hi Filter -append color:white
