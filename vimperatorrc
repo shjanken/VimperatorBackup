@@ -4,7 +4,7 @@ noremap q :tp<CR>
 noremap e :tabopen
 noremap ; :
 noremap : ;
-nnoremap C tabclose 
+nnoremap C :tabclose 
 
 ## other setting
 colorscheme ywgx
