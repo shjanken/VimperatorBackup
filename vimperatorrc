@@ -7,7 +7,7 @@ noremap : ;
 nnoremap C :tabclose 
 
 ## other setting
-colorscheme ywgx
+colorscheme vimpwhite
 set gui=notabs
 set hintchars=hjklasdf
 
