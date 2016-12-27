@@ -4,10 +4,11 @@ noremap q :tp<CR>
 noremap e :tabopen
 noremap ; :
 noremap : ;
-nnoremap C :tabclose 
+noremap C :tabo<CR>
 
 # other setting
 colorscheme indigo
+set gui=notabs
 set hintchars=hjklasdf
 
 hi Filter -append color:white
@@ -24,3 +25,4 @@ set noscrollbars
 
 " noremap <C-l> :set gui=notabs<CR>
 " noremap <ESC><ESC> :set gui=tabs<CR>
+=======
