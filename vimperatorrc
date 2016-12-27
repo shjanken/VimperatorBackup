@@ -1,4 +1,4 @@
-## maps 
+# maps 
 noremap w :tn<CR>
 noremap q :tp<CR>
 noremap e :tabopen
@@ -6,16 +6,21 @@ noremap ; :
 noremap : ;
 nnoremap C :tabclose 
 
-## other setting
-colorscheme ywgx
-set gui=notabs
+# other setting
+colorscheme indigo
 set hintchars=hjklasdf
 
 hi Filter -append color:white
 
-## set quick marks
+# set quick marks
 qmark w http://www.weibo.com
 qmark 1 http://bbs.saraba1st.com/2b
 qmark z http://www.zhihu.com
 qmark s http://10.0.0.205/sl
 
+set focuscontent
+set animations
+set noscrollbars
+
+" noremap <C-l> :set gui=notabs<CR>
+" noremap <ESC><ESC> :set gui=tabs<CR>
