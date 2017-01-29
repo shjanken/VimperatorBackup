@@ -25,4 +25,4 @@ set noscrollbars
 
 " noremap <C-l> :set gui=notabs<CR>
 " noremap <ESC><ESC> :set gui=tabs<CR>
-=======
+
